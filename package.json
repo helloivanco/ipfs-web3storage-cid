@@ -1,7 +1,7 @@
 {
   "name": "ipfs-web3storage-cid",
-  "version": "1.0.3",
-  "description": "Takes a file buffer and returns the IPFS CID v1 (Same as that used by Web3.Storage)",
+  "version": "1.0.4",
+  "description": "Get the IPFS CID v1 from a file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -23,7 +23,8 @@
   "author": "Ivan",
   "license": "ISC",
   "dependencies": {
-    "ipfs-car": "0.9.2"
+    "ipfs-car": "0.9.2",
+    "ipfs-web3storage-cid": "^1.0.3"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
