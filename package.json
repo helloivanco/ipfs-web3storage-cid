@@ -1,6 +1,6 @@
 {
   "name": "ipfs-web3storage-cid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Takes a file buffer and returns the IPFS CID v1 (Same as that used by Web3.Storage)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
